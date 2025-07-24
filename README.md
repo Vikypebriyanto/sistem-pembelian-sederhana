@@ -10,7 +10,9 @@ Dengan database berikut
 ‎- Nodejs, express. js (EJS)
 ‎- database sql
 ‎- desain UI bebas
-‎
+
+---
+
 ‎2. Buat Chatbot sederhana yang diintegrasikan dengan AI seperti chatgpt, deepseek, gemini, ollama, atau lainnya.
 ‎- desain UI bebas
 
