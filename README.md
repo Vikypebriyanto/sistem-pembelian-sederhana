@@ -1,27 +1,23 @@
-# 🚀 Nama Proyek
+# 🚀 sistem sederhana admin page untuk input data pembelian
 
-Deskripsi singkat tentang proyekmu: apa tujuannya, siapa yang menggunakannya, dan kenapa menarik.
-
----
-
-## ✨ Fitur
-
-- ✅ Fitur 1
-- ✅ Fitur 2
-- ✅ Fitur 3
-
----
-
-## 📸 Screenshot
-
-![Contoh Screenshot](./screenshot.png)
-
----
+1. Buat sistem sederhana admin page untuk input data pembelian, cancel pembelian oleh admin toko.
+Dengan database berikut
+‎- DATABASE Produk (buat 10 produk)
+‎- DATABASE Stock produk
+‎- DATABASE Pembelian
+‎
+‎dengan menggunakan:
+‎- Nodejs, express. js (EJS)
+‎- database sql
+‎- desain UI bebas
+‎
+‎2. Buat Chatbot sederhana yang diintegrasikan dengan AI seperti chatgpt, deepseek, gemini, ollama, atau lainnya.
+‎- desain UI bebas
 
 ## ⚙️ Instalasi
 
-Clone repo ini:
+Cara menjalankan:
 
 ```bash
-git clone https://github.com/username/nama-repo.git
-cd nama-repo
+npm init -y
+npm install express mysql2 ejs body-parser
