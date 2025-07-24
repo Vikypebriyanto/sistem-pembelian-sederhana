@@ -5,7 +5,9 @@ Dengan database berikut
 - ✅ DATABASE Produk (buat 10 produk)
 - ✅ DATABASE Stock produk
 - ✅ DATABASE Pembelian
+
 ‎---
+
 ‎dengan menggunakan:
 - Nodejs, express. js (EJS)
 - database sql
