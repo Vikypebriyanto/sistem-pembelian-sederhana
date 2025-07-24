@@ -6,7 +6,7 @@ Dengan database berikut
 - ✅ DATABASE Stock produk
 - ✅ DATABASE Pembelian
 
-‎---
+---‎
 
 ‎dengan menggunakan:
 - Nodejs, express. js (EJS)
