@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chatbot</title>
+</head>
+<body>
+  <h1>Chatbot</h1>
+  <div id="chat"></div>
+  <input id="input" type="text" placeholder="Ketik..."/>
+  <button onclick="send()">Kirim</button>
+
+  <script>
+    async function send() {
+      const input = document.getElementById('input').value;
+      const res = await fetch('https://api.openai.com/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer YOUR_OPENAI_API_KEY'
+        },
+        body: JSON.stringify({
+          model: 'gpt-4o',
+          messages: [{ role: 'user', content: input }]
+        })
+      });
+      const data = await res.json();
+      const reply = data.choices[0].message.content;
+      document.getElementById('chat').innerHTML += `<p><b>Anda:</b> ${input}</p><p><b>Bot:</b> ${reply}</p>`;
+      document.getElementById('input').value = '';
+    }
+  </script>
+</body>
+</html>
